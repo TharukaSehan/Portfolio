@@ -3,10 +3,13 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import profileImage from './assets/img/Tharuka.png'
-import heroImage from './assets/hero.png'
 import shanthaTourShot1 from './assets/img/ST1.png'
 import shanthaTourShot2 from './assets/img/ST2.png'
 import shanthaTourShot3 from './assets/img/ST3.png'
+import shanthaTradersShot1 from './assets/img/Shantha-1.png'
+import shanthaTradersShot2 from './assets/img/Shantha-2.png'
+import shanthaTradersShot3 from './assets/img/Shantha-3.png'
+import shanthaTradersShot4 from './assets/img/shantha-4.png'
 
 const navItems = [
   { id: 'hero', label: 'Home', icon: 'bi-house' },
@@ -63,7 +66,7 @@ const developmentProjects = [
     description:
       'An interactive Rubik cube solver platform with 3D visualization, camera scanning, manual input mode, and backend-powered solving logic.',
     tags: ['React', 'Three.js', 'FastAPI', 'OpenCV', 'Kociemba'],
-    images: [heroImage, shanthaTourShot1, shanthaTourShot2, shanthaTourShot3],
+    images: [shanthaTourShot1, shanthaTourShot2, shanthaTourShot3],
     live: '#',
     code: 'https://github.com/TharukaSehan/RCube',
   },
@@ -77,6 +80,16 @@ const developmentProjects = [
     images: [shanthaTourShot1, shanthaTourShot2, shanthaTourShot3],
     live: 'https://tharukasehan.github.io/ShanthaTours/',
     code: 'https://github.com/TharukaSehan/ShanthaTours',
+  },
+  {
+    badge: 'Ecommerce Website',
+    type: 'Web Application',
+    title: 'Shantha Traders Ecommerce Site',
+    description: 'An ecommerce website for an imitation fashion jewellery business.',
+    tags: ['Node.js', 'Express.js', 'MongoDB', 'React'],
+    images: [shanthaTradersShot1, shanthaTradersShot2, shanthaTradersShot3, shanthaTradersShot4],
+    live: 'https://shantha-app.vercel.app/',
+    code: 'https://github.com/TharukaSehan/shantha-app',
   },
 ]
 
