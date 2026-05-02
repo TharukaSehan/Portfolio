@@ -200,7 +200,7 @@ function ImageCarousel({ images, title }) {
   return (
     <div className="carousel-wrap">
       <div className="image-view group-hover-parent">
-        <img src={images[index]} alt={`${title} - ${index + 1}`} />
+        <img src={images[index]} alt={`${title} by Tharuka Pathirana - ${index + 1}`} />
         <button className="arrow left" onClick={prev} aria-label="Previous image" type="button">
           <i className="bi bi-chevron-left" />
         </button>
@@ -346,7 +346,7 @@ function App() {
 
       <aside className={`sidebar ${menuOpen ? 'show' : ''}`}>
         <div className="profile-ring">
-          <img src={profileImage} alt="Tharuka Pathirana" className="profile-image" />
+          <img src={profileImage} alt="Tharuka Pathirana - Web Developer Portfolio" className="profile-image" />
         </div>
         <h1>Tharuka Pathirana</h1>
         <p>Full Stack Designer</p>
@@ -396,17 +396,17 @@ function App() {
 
           <div className="hero-image" data-aos="fade-left" data-aos-delay="200">
             <div className="image-ring">
-              <img src={profileImage} alt="Tharuka Pathirana" />
+              <img src={profileImage} alt="Tharuka Pathirana - Web Developer Portfolio" />
             </div>
           </div>
         </section>
 
         <section id="about" className="section">
           <header className="section-head" data-aos="fade-up">
-            <h2>About Me</h2>
+            <h2>About Tharuka Pathirana</h2>
             <p>
-              A motivated technology student focused on building practical digital solutions with dedication,
-              consistency, and strong growth mindset.
+              I am Tharuka Pathirana, a motivated technology student focused on building practical digital solutions with dedication,
+              consistency, and strong growth mindset. Welcome to the Tharuka Pathirana Web Developer Portfolio.
             </p>
           </header>
 
@@ -619,7 +619,7 @@ function App() {
             <h3 className="gradient-text">Ready to Start Your Project?</h3>
             <p>Whether you need web development or UI/UX design, I am here to help.</p>
             <div className="actions center">
-              <a className="btn-primary" href="mailto:manushasj111@gmail.com">Email Me</a>
+              <a className="btn-primary" href="mailto:tharukapathirana0@gmail.com">Email Me</a>
               <a className="btn-ghost" href="#">WhatsApp</a>
             </div>
           </div>
