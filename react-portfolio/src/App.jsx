@@ -10,6 +10,11 @@ import shanthaTradersShot1 from './assets/img/Shantha-1.png'
 import shanthaTradersShot2 from './assets/img/Shantha-2.png'
 import shanthaTradersShot3 from './assets/img/Shantha-3.png'
 import shanthaTradersShot4 from './assets/img/shantha-4.png'
+import gpaShot1 from './assets/img/gpa1.png'
+import gpaShot2 from './assets/img/gpa2.png'
+import rcube1 from './assets/img/rcube1.png'
+import rcube2 from './assets/img/rcube2.png'
+import rcube3 from './assets/img/rcube3.png'
 
 const navItems = [
   { id: 'hero', label: 'Home', icon: 'bi-house' },
@@ -66,8 +71,8 @@ const developmentProjects = [
     description:
       'An interactive Rubik cube solver platform with 3D visualization, camera scanning, manual input mode, and backend-powered solving logic.',
     tags: ['React', 'Three.js', 'FastAPI', 'OpenCV', 'Kociemba'],
-    images: [shanthaTourShot1, shanthaTourShot2, shanthaTourShot3],
-    live: '#',
+    images: [rcube1, rcube2, rcube3],
+    live: 'https://r-cube-7qm0nto2e-tharuka.vercel.app/',
     code: 'https://github.com/TharukaSehan/RCube',
   },
   {
@@ -90,6 +95,16 @@ const developmentProjects = [
     images: [shanthaTradersShot1, shanthaTradersShot2, shanthaTradersShot3, shanthaTradersShot4],
     live: 'https://shantha-app.vercel.app/',
     code: 'https://github.com/TharukaSehan/shantha-app',
+  },
+  {
+    badge: 'Utility Tool',
+    type: 'Web Application',
+    title: 'Sabaragamuwa University GPA Calculator',
+    description: 'A GPA Calculator tailored for the students at Sabaragamuwa University.',
+    tags: ['React', 'Web Application'],
+    images: [gpaShot1, gpaShot2],
+    live: 'https://gpacalculator-production-1b1b.up.railway.app/',
+    code: '#',
   },
 ]
 
