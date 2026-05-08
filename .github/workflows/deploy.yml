@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - docs/**
+      - react-portfolio/dist/**
   workflow_dispatch:
 
 permissions:
@@ -28,6 +31,24 @@ jobs:
 
       - name: Build project
         run: cd react-portfolio && npm run build
+
+      - name: Sync GitHub Pages docs folder
+        run: |
+          rm -rf docs/*
+          cp -R react-portfolio/dist/* docs/
+
+      - name: Commit updated docs
+        run: |
+          if git diff --quiet -- docs; then
+            echo "No docs changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Update GitHub Pages site [skip ci]"
+          git push origin HEAD:main
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
