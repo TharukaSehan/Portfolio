@@ -398,7 +398,9 @@ function App() {
             </p>
             <div className="cta-row">
               <a className="btn-primary" href="#contact">Get In Touch</a>
-              <a className="btn-ghost" href="#development">Download CV</a>
+              <a className="btn-ghost" href="./Tharuka_CV__BA_.pdf" download="Tharuka_CV__BA_.pdf">
+                Download CV
+              </a>
             </div>
           </div>
 
