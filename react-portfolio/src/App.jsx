@@ -30,11 +30,11 @@ const typedWords = ['UI/UX Designer', 'Frontend Developer']
 
 const skillGroups = [
   {
-    title: 'Graphic Design',
+    title: 'Project Management',
     skills: [
-      { name: 'Adobe Photoshop', value: 95 },
-      { name: 'Adobe Illustrator', value: 92 },
-      { name: 'Typography', value: 88 },
+      { name: 'Jira', value: 84 },
+      { name: 'Trello', value: 86 },
+      { name: 'Confluence', value: 80 },
     ],
   },
   {
@@ -59,6 +59,14 @@ const skillGroups = [
       { name: 'Git and GitHub', value: 80 },
       { name: 'Java', value: 72 },
       { name: 'SQL', value: 70 },
+    ],
+  },
+  {
+    title: 'Business Analysis',
+    skills: [
+      { name: 'Power BI', value: 78 },
+      { name: 'SQL', value: 70 },
+      { name: 'Excel', value: 82 },
     ],
   },
 ]
